@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>5.4 Komponenty CSS Bootstrapa</title>
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+		<link rel="stylesheet" type="text/css" href="style.css">
+	</head>
+	<body>
+		<header>
+			<nav class="navbar navbar-inverse navbar-fixed-top">
+				<div class="container-fluid">
+			    <!-- Brand and toggle get grouped for better mobile display -->
+				    <div class="navbar-header">
+				    	<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+				        	<span class="sr-only">Toggle navigation</span>
+				        	<span class="icon-bar"></span>
+				        	<span class="icon-bar"></span>
+				    	 <span class="icon-bar"></span>
+				      	</button>
+				      	<a class="navbar-brand" href="#">Nazwa firmy</a>
+				    </div>
+				
+				    <!-- Collect the nav links, forms, and other content for toggling -->
+				    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+				      	<ul class="nav navbar-nav">
+					       	<li class="active"><a href="#">About<span class="sr-only">(current)</span></a></li>
+					       	<li><a href="#">Blog</a></li>
+					       	<li><a href="#gallery">Gallery</a></li>
+					       	<li><a href="#">Contact</a></li>
+					   		<!--<li class="dropdown">
+					        	<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Dropdown <span class="caret"></span></a>
+						         <ul class="dropdown-menu">
+							        <li><a href="#">Action</a></li>
+							        <li><a href="#">Another action</a></li>
+							        <li><a href="#">Something else here</a></li>
+						            <li role="separator" class="divider"></li>
+						            <li><a href="#">Separated link</a></li>
+						            <li role="separator" class="divider"></li>
+						            <li><a href="#">One more separated link</a></li>
+					          	</ul>
+			        		</li>-->
+			      		</ul>
+				      	<form class="navbar-form navbar-right">
+				      		<div class="form-group">
+				       			<input type="text" class="form-control" placeholder="podaj e-mail">
+				       		</div>
+				       		<button type="submit" class="btn btn-default">Wyślij</button>
+				    	</form>
+					 </div><!-- /.navbar-collapse -->
+				</div><!-- /.container-fluid -->
+			</nav>
+		</header>
+		<section class="hero text-center jumbotron">
+			<h1>Runners World<br> <small>Be like you like to be.</small></h1>
+			<button type="button" class="btn btn-primary">Run with us
+			</button>
+		</section>
+		<section class="gallery col-sm-10 col-sm-offset-1" id="gallery">
+			<div class="container-fluid">
+				<h2 class="hero text-center">Come and run with us</h2>
+				<div class="row">
+					<img src="https://images.pexels.com/photos/39308/runners-silhouettes-athletes-fitness-39308.jpeg?w=940&h=650&auto=compress&cs=tinysrgb" class="img-responsive col-xs-12 col-sm-6" alt="Responsive image">
+					<img src="https://images.pexels.com/photos/40751/running-runner-long-distance-fitness-40751.jpeg?w=940&h=650&auto=compress&cs=tinysrgb" class="img-responsive col-xs-12 col-sm-6" alt="Responsive image">
+				</div>
+				<div class="row">
+					<img src="https://images.pexels.com/photos/34684/pexels-photo.jpg?w=940&h=650&auto=compress&cs=tinysrgb" class="img-responsive col-xs-12 col-sm-6" alt="Responsive image">
+					<img src="https://cdn.stocksnap.io/img-thumbs/960w/HAM087SSHZ.jpg" class="img-responsive col-xs-12 col-sm-6" alt="Responsive image">
+				</div>
+			</div>
+		</section>
+		<section class="container">
+			<div class="col-sm-6 col-sm-offset-3">
+				<h2 class="text-center">Statistics</h2>	
+				<table class="table table-bordered table-hover table-responsive text-center">
+					<thead>
+						<tr>
+							<th>How many</th>
+						    <th>Distace</th>
+						    <th>Age</th>
+						</tr>
+					</thead>
+					<tbody>
+						<tr>
+							<td>Dolor ipsum</td>
+						    <td>10 km</td>
+						    <td>20 </td>
+						</tr>
+						<tr>
+							<td>Dolor ipsum</td>
+						    <td>21 km 97,5m</td>
+						    <td>30</td>
+						</tr>
+						<tr class="bg-danger">
+							<td>Dolor ipsum</td>
+						    <td>42 km 195m</td>
+						    <td>37</td>
+						</tr>
+					</tbody>
+				</table>
+			</div>
+		</section class="gallery2">
+		<div class="row">
+  			<div class="col-xs-12 col-sm-6 col-md-3">
+    			<a href="#" class="thumbnail">
+      				<img src="https://images.unsplash.com/photo-1500933964569-522caa01ca2e?auto=format&fit=crop&w=1352&q=80" class="img-responsive" alt="Responsive image">
+				</a>
+			</div>
+			<div class="col-xs-12 col-sm-6 col-md-3">
+				<a href="#" class="thumbnail">
+      				<img src="https://images.unsplash.com/photo-1477332552946-cfb384aeaf1c?auto=format&fit=crop&w=1350&q=80" class="img-responsive" alt="Responsive image">
+				</a>
+  			</div>
+  			<div class="col-xs-12 col-sm-6 col-md-3">
+				<a href="#" class="thumbnail">
+      				<img src="https://images.unsplash.com/photo-1500856056008-859079534e9e?auto=format&fit=crop&w=1351&q=80" class="img-responsive" alt="Responsive image">
+				</a>
+  			</div>
+  			<div class="col-xs-12 col-sm-6 col-md-3">
+				<a href="#" class="thumbnail">
+      				<img src="https://images.unsplash.com/photo-1508095036960-73a0749c3e4b?auto=format&fit=crop&w=1350&q=80" class="img-responsive" alt="Responsive image">
+				</a>
+  			</div>
+  		</div>
+  		<div class="row">
+  			<div class="col-xs-12 col-sm-6 col-md-3">
+    			<a href="#" class="thumbnail">
+      				<img src="https://images.unsplash.com/photo-1502962618696-f542d8415fb9?auto=format&fit=crop&w=1350&q=80" class="img-responsive" alt="Responsive image">
+				</a>
+			</div>
+			<div class="col-xs-12 col-sm-6 col-md-3">
+				<a href="#" class="thumbnail">
+      				<img src="https://images.pexels.com/photos/421160/pexels-photo-421160.jpeg?h=350&auto=compress&cs=tinysrgb" class="img-responsive" alt="Responsive image">
+				</a>
+  			</div>
+  			<div class="col-xs-12 col-sm-6 col-md-3">
+				<a href="#" class="thumbnail">
+      				<img src="https://images.pexels.com/photos/235922/pexels-photo-235922.jpeg?h=350&auto=compress&cs=tinysrgb" class="img-responsive" alt="Responsive image">
+				</a>
+  			</div>
+  			<div class="col-xs-12 col-sm-6 col-md-3">
+				<a href="#" class="thumbnail">
+      				<img src="https://images.unsplash.com/photo-1452626038306-9aae5e071dd3?auto=format&fit=crop&w=1353&q=80" class="img-responsive" alt="Responsive image">
+				</a>
+  			</div>
+  		</div>
+  		<div class="media">
+  			<div class="media-left">
+    			<a href="#">
+      				<img class="media-object" src="https://images.pexels.com/photos/332835/pexels-photo-332835.jpeg?w=940&h=650&auto=compress&cs=tinysrgb" alt="media picture">
+    			</a>
+  			</div>
+  			<div class="media-body">
+    			<h3 class="media-heading text-center">Why to be a runner</h3>
+				<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+			
+				</p>
+			 </div>
+		</div>
+		<section class="container">
+			<form  class="col-sm-6 col-sm-offset-3">
+				<div class="form-group">
+					<label for="exampleInputEmail1">name:</label>
+				    <input type="email" class="form-control" id="exampleInputEmail1" placeholder="your name:">
+				</div>
+				<div class="form-group">
+				   	<label for="exampleInputPassword1">e-mail:</label>
+				    <input type="password" class="form-control" id="exampleInputPassword1" placeholder="your e-mail adress:">
+				</div>
+				<div class="form-group">
+					<label for="exampleInputFile"></label>
+				    <input type="file" id="exampleInputFile">
+				    <p class="help-block"></p>
+				</div>
+				<div>
+					<textarea class="form-control" rows="3"></textarea>
+				</div>
+				<button type="submit" class="btn btn-primary">Submit</button>
+			</form>
+		</section>
+		<div class=" text-center">
+			<nav aria-label="Page navigation">
+  				<ul class="pagination">
+				 	<li>
+      					<a href="#" aria-label="Previous">
+        					<span aria-hidden="true">&laquo;</span>
+    					 </a>
+    				</li>
+				    <li><a href="#">1</a></li>
+				    <li><a href="#">2</a></li>
+				    <li><a href="#">3</a></li>
+				    <li><a href="#">4</a></li>
+				    <li><a href="#">5</a></li>
+				    <li>
+      					<a href="#" aria-label="Next">
+        				<span aria-hidden="true">&raquo;</span>
+      					</a>
+    				</li>
+  				</ul>
+			</nav>
+		</div>
+		<ol class="breadcrumb text-center">
+  			<li><a href="#">Home</a></li>
+  			<li><a href="#">Library</a></li>
+  			<li><a href="#">Data</li>
+		</ol>
+	</body>
+</html>
